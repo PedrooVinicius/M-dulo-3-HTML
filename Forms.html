@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <a href="./index.html">HOME</a>
+    <h1>Formulários</h1>
+    <form>
+        <input type="text" placeholder="Seu Nome"/>
+        <hr />
+        <label for="email"> Seu email</label>
+        <input id="email" type="email"/>
+        <hr />
+        <input type="tel" placeholder="Seu telefone" />
+        <hr/>
+        <input type="number" max="10" min="0" step="2"/>
+        <hr/>
+        <input type="file" />
+        <hr/>
+        <input type="color"/>
+        <hr/>
+        <input type="checkbox" id="checkbox-termos"/> <label for="checkbox-termos">Aceito os termos</label>
+        <hr/>
+        <p>
+            Qual a sua comida favorita?
+        </p>
+        <input type="radio" name="comida favorita?"   id="Comida-Strogonoff"/> <label for="Comida-Strogonoff">Strognoff</label>
+        <input type="radio" name="comida favorita?"    id="Comida-Parmegiana"/> <label for="Comida-Parmegiana">Parmegiana</label>
+        <input type="radio" name="comida favorita?"   id="Comida-Pão com manteiga"/> <label for="Comida-Pão com manteiga">Pão com manteiga</label>
+        <hr/>
+        <label>Qual o seu filme favorito?</label>
+        <select multiple>
+            <option>Shrek 1</option>
+            <option>Shrek 2</option>
+            <option>Shrek 3</option>
+        </select>
+        <hr/>
+        <textarea></textarea>
+        <hr/>
+        <button type="submit">
+            Enviar
+        </button>
+        <button type="reset">
+            Limpar
+        </button>
+        
+    </form>
+    
+</body>
+</html>
